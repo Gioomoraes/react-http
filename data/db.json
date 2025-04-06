@@ -42,6 +42,11 @@
       "id": "6050",
       "name": "teclado",
       "price": "110"
+    },
+    {
+      "id": "e4cb",
+      "name": "giovanna",
+      "price": "150"
     }
   ]
 }
