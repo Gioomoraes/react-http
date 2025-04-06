@@ -31,8 +31,19 @@ function App() {
     };
 
     const res = await fetch(url, {
-      method: "Post",
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(product),
     });
+
+    const addedProduct = await res.json();
+
+    setProducts((prevProducts) => [...prevProducts, addedProduct]);
+
+    setName("");
+    setPrice("");
   };
 
   return (
@@ -53,7 +64,7 @@ function App() {
               type="text"
               value={name}
               name="name"
-              onChange={(e) => setName(e.target.valuse)}
+              onChange={(e) => setName(e.target.value)}
             />
           </label>
           <label>

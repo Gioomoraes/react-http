@@ -1,19 +1,47 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "camisa",
       "price": 59.9
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "calça azul",
       "price": 80
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Boné",
       "price": 50
+    },
+    {
+      "id": "c5da",
+      "price": "12"
+    },
+    {
+      "id": "fd87",
+      "price": "14"
+    },
+    {
+      "id": "03c0",
+      "name": "test",
+      "price": "15"
+    },
+    {
+      "id": "3ec6",
+      "name": "shorts jeans",
+      "price": "20"
+    },
+    {
+      "id": "f87d",
+      "name": "teclado",
+      "price": "110"
+    },
+    {
+      "id": "6050",
+      "name": "teclado",
+      "price": "110"
     }
   ]
 }
