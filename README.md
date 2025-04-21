@@ -38,13 +38,17 @@ git clone https://github.com/Gioomoraes/react-http
    ```
 
 3. Instale as dependências:
+
    ```bash
    npm install
    ```
+
 4. Inicie
+
    ```bash
    npm start
    ```
+
    O projeto estará disponível no navegador em http://localhost:3000/products
 
 ## **Licença 🔐**
