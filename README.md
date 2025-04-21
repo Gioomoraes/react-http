@@ -32,11 +32,10 @@ git clone https://github.com/Gioomoraes/react-http
 ```
 
 2. Acesse o diretório do projeto:
+
    ```bash
    cd react-http
    ```
-
-````
 
 3. Instale as dependências:
    ```bash
@@ -55,4 +54,7 @@ Este projeto está sob a [MIT License](LICENSE).
 ## Autora 💜
 
 - [@Gioomoraes](https://github.com/Gioomoraes)
-````
+
+```
+
+```
