@@ -1,12 +1,58 @@
-# React + Vite
+# Requisições HTTP utilizando REACT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto em React que simula o cadastro e listagem de produtos utilizando requisições HTTP (`GET` e `POST`) com a ajuda de um hook personalizado (`useFetch`). Os dados são armazenados e manipulados através de um servidor local utilizando o [JSON Server](https://github.com/typicode/json-server).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- Listagem de produtos (GET)
+- Cadastro de novos produtos (POST)
+- Requisições feitas por meio de um hook customizado (`useFetch`)
+- Backend fake com JSON Server
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tecnologias utilizadas
+
+- React
+- Vite
+- JSON Server
+- JavaScript
+- Hooks (`useState`, `useEffect`)
+
+---
+
+## ⚙️ Instalação e uso
+
+1. **Clone o repositório**
+
+```bash
+git clone https://github.com/Gioomoraes/react-http
+```
+
+2. Acesse o diretório do projeto:
+   ```bash
+   cd react-http
+   ```
+
+````
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie
+   ```bash
+   npm start
+   ```
+   O projeto estará disponível no navegador em http://localhost:3000/products
+
+## **Licença 🔐**
+
+Este projeto está sob a [MIT License](LICENSE).
+
+## Autora 💜
+
+- [@Gioomoraes](https://github.com/Gioomoraes)
+````
