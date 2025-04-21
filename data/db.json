@@ -57,6 +57,21 @@
       "id": "129e",
       "name": "tenis ",
       "price": "180"
+    },
+    {
+      "id": "c803",
+      "name": "suporte ",
+      "price": "120"
+    },
+    {
+      "id": "3500",
+      "name": "saia",
+      "price": "2"
+    },
+    {
+      "id": "6b90",
+      "name": "blusa",
+      "price": "3"
     }
   ]
 }
