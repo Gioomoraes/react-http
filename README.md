@@ -58,7 +58,3 @@ Este projeto está sob a [MIT License](LICENSE).
 ## Autora 💜
 
 - [@Gioomoraes](https://github.com/Gioomoraes)
-
-```
-
-```
