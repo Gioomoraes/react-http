@@ -56,14 +56,16 @@ function App() {
     <div className="App">
       <h1>Lista de produtos </h1>
       {loading && <p>Carregando os dados...</p>}
-      <ul>
-        {items &&
-          items.map((product) => (
-            <li key={product.id}>
-              {product.name} - R$: {product.price}
-            </li>
-          ))}
-      </ul>
+      {!loading && (
+        <ul>
+          {items &&
+            items.map((product) => (
+              <li key={product.id}>
+                {product.name} - R$: {product.price}
+              </li>
+            ))}
+        </ul>
+      )}
       <div className="add-product">
         <form onSubmit={handleSubmit}>
           <label>
@@ -84,7 +86,8 @@ function App() {
               onChange={(e) => setPrice(e.target.value)}
             />
           </label>
-          <input type="submit" value="criar" />
+          {loading && <input type="submit" disabled value="Aguarde" />}
+          {!loading && <input type="submit" value="criar" />}
         </form>
       </div>
     </div>

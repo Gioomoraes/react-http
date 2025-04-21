@@ -72,6 +72,31 @@
       "id": "6b90",
       "name": "blusa",
       "price": "3"
+    },
+    {
+      "id": "25ab",
+      "name": "suporte mic",
+      "price": "60"
+    },
+    {
+      "id": "c651",
+      "name": "a",
+      "price": "2"
+    },
+    {
+      "id": "1e44",
+      "name": "b",
+      "price": "3"
+    },
+    {
+      "id": "844e",
+      "name": "c",
+      "price": "4"
+    },
+    {
+      "id": "ec1c",
+      "name": "d",
+      "price": "5"
     }
   ]
 }
