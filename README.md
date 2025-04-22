@@ -1,6 +1,6 @@
 # Requisições HTTP utilizando REACT
 
-Este é um projeto em React que simula o cadastro e listagem de produtos utilizando requisições HTTP (`GET` e `POST`) com a ajuda de um hook personalizado (`useFetch`). Os dados são armazenados e manipulados através de um servidor local utilizando o [JSON Server](https://github.com/typicode/json-server).
+Este é um projeto em React baseado com conhecimentos do curso da Udemy que simula o cadastro e listagem de produtos utilizando requisições HTTP (`GET` e `POST`) com a ajuda de um hook personalizado (`useFetch`). Os dados são armazenados e manipulados através de um servidor local utilizando o [JSON Server](https://github.com/typicode/json-server).
 
 ---
 
