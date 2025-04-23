@@ -8,7 +8,7 @@ const url = "http://localhost:3000/products";
 function App() {
   const [products, setProducts] = useState([]);
 
-  const { data: items, httpConfig, loading } = useFetch(url);
+  const { data: items, httpConfig, loading, error } = useFetch(url);
 
   const [name, setName] = useState("");
 
@@ -56,6 +56,7 @@ function App() {
     <div className="App">
       <h1>Lista de produtos </h1>
       {loading && <p>Carregando os dados...</p>}
+      {error && <p>{error}</p>}
       {!loading && (
         <ul>
           {items &&
